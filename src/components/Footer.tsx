@@ -1,4 +1,5 @@
-import { MapPin, Phone, Mail, Clock, Facebook, Twitter, Instagram, Linkedin } from "lucide-react";
+
+import { MapPin, Phone, Mail, Facebook, Twitter, Instagram, Linkedin } from "lucide-react";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -7,7 +8,7 @@ const Footer = () => {
     <footer className="bg-hrd-black text-white">
       <div className="container mx-auto px-4">
         <div className="pt-16 pb-8 border-b border-gray-800">
-          <div className="grid md:grid-cols-4 gap-10">
+          <div className="grid md:grid-cols-3 gap-10">
             <div>
               <div className="mb-6">
                 <div className="inline-block bg-white rounded-full p-3">
@@ -51,24 +52,6 @@ const Footer = () => {
                 </li>
                 <li>
                   <a href="#contact" className="text-gray-400 hover:text-white transition-colors">Contact</a>
-                </li>
-              </ul>
-            </div>
-            
-            <div>
-              <h3 className="text-xl font-bold mb-6">Business Hours</h3>
-              <ul className="space-y-3">
-                <li className="flex items-start">
-                  <Clock className="h-5 w-5 text-hrd-red mr-3" />
-                  <span className="text-gray-400">Monday - Friday: 10:00 AM - 5:00 PM</span>
-                </li>
-                <li className="flex items-start">
-                  <Clock className="h-5 w-5 text-hrd-red mr-3 opacity-0" />
-                  <span className="text-gray-400">Saturday: Closed</span>
-                </li>
-                <li className="flex items-start">
-                  <Clock className="h-5 w-5 text-hrd-red mr-3 opacity-0" />
-                  <span className="text-gray-400">Sunday: 10:00 AM - 5:00 PM</span>
                 </li>
               </ul>
             </div>
