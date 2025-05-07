@@ -32,23 +32,9 @@ const AboutSection = () => {
               In addition to its road-related work, H.R.D. Construction Pvt. Ltd. has also played an important role in the construction of government buildings, contributing to public infrastructure and administrative facilities. Furthermore, the company has extended its services to the private sector, participating in the development of residential and commercial buildings.
             </p>
             
-            <div className="grid grid-cols-2 gap-4">
-              <div className="bg-white p-4 rounded-lg shadow-sm">
-                <h4 className="font-bold text-lg text-hrd-red mb-2">License No:</h4>
-                <p>070/71-13</p>
-              </div>
-              <div className="bg-white p-4 rounded-lg shadow-sm">
-                <h4 className="font-bold text-lg text-hrd-red mb-2">Regd no:</h4>
-                <p>123517/70/71</p>
-              </div>
-              <div className="bg-white p-4 rounded-lg shadow-sm">
-                <h4 className="font-bold text-lg text-hrd-red mb-2">PAN No:</h4>
-                <p>601875207</p>
-              </div>
-              <div className="bg-white p-4 rounded-lg shadow-sm">
-                <h4 className="font-bold text-lg text-hrd-red mb-2">Established:</h4>
-                <p>2014</p>
-              </div>
+            <div className="bg-white p-4 rounded-lg shadow-sm">
+              <h4 className="font-bold text-lg text-hrd-red mb-2">Established:</h4>
+              <p>2014</p>
             </div>
           </div>
         </div>
