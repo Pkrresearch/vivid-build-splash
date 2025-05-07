@@ -12,7 +12,7 @@ const Footer = () => {
             <div>
               <div className="mb-6">
                 <img 
-                  src="/lovable-uploads/7cba74f8-04a3-4da2-9f74-4d85f8a61d6e.png" 
+                  src="/lovable-uploads/9c05944a-2372-4d84-a1a4-ad9c5cc86521.png" 
                   alt="H.R.D. Construction" 
                   className="h-16"
                 />
@@ -44,9 +44,6 @@ const Footer = () => {
                 </li>
                 <li>
                   <a href="#services" className="text-gray-400 hover:text-white transition-colors">Services</a>
-                </li>
-                <li>
-                  <a href="#projects" className="text-gray-400 hover:text-white transition-colors">Projects</a>
                 </li>
                 <li>
                   <a href="#about" className="text-gray-400 hover:text-white transition-colors">About Us</a>

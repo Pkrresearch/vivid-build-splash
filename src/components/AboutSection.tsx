@@ -21,11 +21,15 @@ const AboutSection = () => {
             <div className="w-20 h-1 bg-hrd-red mb-6"></div>
             
             <p className="text-gray-700 mb-6">
-              Established as a leading construction company in Nepal, H.R.D. Construction Pvt. Ltd. has been delivering exceptional construction services since its inception. We pride ourselves on our commitment to quality, innovation, and client satisfaction.
+              H.R.D. Construction Pvt. Ltd. is a reputable construction company based in Ratnanagar-9, Chitwan, Nepal. Initially established with a primary focus on road safety works, the company has steadily expanded its scope and expertise over the years. With a solid foundation in infrastructure development, H.R.D. Construction has made significant contributions to a variety of projects across the region.
             </p>
             
             <p className="text-gray-700 mb-6">
-              Our team of experienced professionals brings expertise across various construction disciplines, ensuring that each project is completed to the highest standards of excellence.
+              From its early days, the company has been actively involved in numerous road construction initiatives, helping to enhance transportation networks and improve connectivity. Its commitment to quality and safety has earned it a trusted name in the industry.
+            </p>
+            
+            <p className="text-gray-700 mb-6">
+              In addition to its road-related work, H.R.D. Construction Pvt. Ltd. has also played an important role in the construction of government buildings, contributing to public infrastructure and administrative facilities. Furthermore, the company has extended its services to the private sector, participating in the development of residential and commercial buildings.
             </p>
             
             <div className="grid grid-cols-2 gap-4">

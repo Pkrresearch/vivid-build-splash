@@ -29,7 +29,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4 flex justify-between items-center">
         <div className="flex items-center">
           <img 
-            src="/lovable-uploads/7cba74f8-04a3-4da2-9f74-4d85f8a61d6e.png" 
+            src="/lovable-uploads/9c05944a-2372-4d84-a1a4-ad9c5cc86521.png" 
             alt="H.R.D. Construction" 
             className="h-12"
           />
@@ -39,7 +39,6 @@ const Navbar = () => {
         <nav className="hidden md:flex items-center space-x-8">
           <a href="#home" className="text-hrd-black hover:text-hrd-red transition-colors font-medium">Home</a>
           <a href="#services" className="text-hrd-black hover:text-hrd-red transition-colors font-medium">Services</a>
-          <a href="#projects" className="text-hrd-black hover:text-hrd-red transition-colors font-medium">Projects</a>
           <a href="#about" className="text-hrd-black hover:text-hrd-red transition-colors font-medium">About</a>
           <a href="#contact" className="text-hrd-black hover:text-hrd-red transition-colors font-medium">Contact</a>
         </nav>
@@ -71,13 +70,6 @@ const Navbar = () => {
                 onClick={() => setIsOpen(false)}
               >
                 Services
-              </a>
-              <a 
-                href="#projects" 
-                className="text-hrd-black hover:text-hrd-red transition-colors font-medium py-2"
-                onClick={() => setIsOpen(false)}
-              >
-                Projects
               </a>
               <a 
                 href="#about" 

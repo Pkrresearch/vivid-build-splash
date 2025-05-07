@@ -15,7 +15,7 @@ const services = [
   {
     icon: <Construction className="h-10 w-10 text-hrd-black" />,
     title: "Infrastructure Development",
-    description: "Comprehensive infrastructure solutions including roads, bridges, and public facilities."
+    description: "Comprehensive infrastructure solutions including roads and public facilities."
   }
 ];
 

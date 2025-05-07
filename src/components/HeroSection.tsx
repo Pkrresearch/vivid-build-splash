@@ -39,7 +39,7 @@ const HeroSection = () => {
           </div>
           <div className="hidden md:block animate-fade-in">
             <img 
-              src="/lovable-uploads/c4d054e5-d508-4133-b627-284655bdb8b0.png" 
+              src="/lovable-uploads/9c05944a-2372-4d84-a1a4-ad9c5cc86521.png" 
               alt="H.R.D. Construction Logo" 
               className="max-w-md mx-auto"
             />
