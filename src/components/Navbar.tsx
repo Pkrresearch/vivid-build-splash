@@ -28,11 +28,13 @@ const Navbar = () => {
     >
       <div className="container mx-auto px-4 flex justify-between items-center">
         <div className="flex items-center">
-          <img 
-            src="/lovable-uploads/9c05944a-2372-4d84-a1a4-ad9c5cc86521.png" 
-            alt="H.R.D. Construction" 
-            className="h-12"
-          />
+          <div className={`${scrolled ? '' : 'bg-white rounded-full p-2'}`}>
+            <img 
+              src="/lovable-uploads/9c05944a-2372-4d84-a1a4-ad9c5cc86521.png" 
+              alt="H.R.D. Construction" 
+              className="h-12"
+            />
+          </div>
         </div>
 
         {/* Desktop Navigation */}
